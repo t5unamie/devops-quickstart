@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ikedam
+Build-Jdk: 1.7.0_79
+Extension-Name: extensible-choice-parameter
+Specification-Title: Jenkins plugin to define choice build parameters 
+ where the way to provide choices can be extended.
+Implementation-Title: extensible-choice-parameter
+Implementation-Version: 1.3.2
+Group-Id: jp.ikedam.jenkins.plugins
+Short-Name: extensible-choice-parameter
+Long-Name: Extensible Choice Parameter plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Extensible+Choice+Par
+ ameter+plugin
+Plugin-Version: 1.3.2
+Hudson-Version: 1.466
+Jenkins-Version: 1.466
+Plugin-Developers: IKEDA Yasuyuki:ikedam:
+

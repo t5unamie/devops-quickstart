@@ -1,0 +1,36 @@
+<div>
+  <p>
+    This field allows to pass some configuration parameters to SonarQube.
+    Parameters defined here take precedence over the ones potentially defined in the specified sonar-project.properties file.
+    It is even possible to specify all SonarQube parameters here and leave the "Path to project properties" input field empty.
+  </p>
+<pre style="border: solid #BBBBBB 1px; padding: 1em">
+# required metadata
+sonar.projectKey=my:project
+sonar.projectName=My project
+sonar.projectVersion=1.0
+
+# path to source directories (required)
+sonar.sources=srcDir1,srcDir2
+
+# path to test source directories (optional)
+sonar.tests=testDir1,testDir2
+
+# path to project binaries (optional), for example directory of Java bytecode
+sonar.binaries=binDir
+
+# optional comma-separated list of paths to libraries. Only path to JAR file and path to directory of classes are supported.
+sonar.libraries=path/to/library.jar,path/to/classes/dir
+
+# Uncomment this line to analyse a project which is not a java project.
+# The value of the property must be the key of the language.
+sonar.language=cobol
+
+# Additional parameters
+sonar.my.property=value
+</pre>
+  <p>
+    See <a target="_new" href="http://redirect.sonarsource.com/doc/analyzing-with-sq-runner.html">Analyzing with SonarQube Runner</a> for detailed information on configuring a
+    SonarQube analysis with the SonarQube Runner.
+  </p>
+</div>
