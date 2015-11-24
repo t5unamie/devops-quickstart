@@ -1,0 +1,29 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 51810c59
+dn: olcDatabase={1}hdb
+objectClass: olcDatabaseConfig
+objectClass: olcHdbConfig
+olcDatabase: {1}hdb
+olcDbDirectory: /var/lib/ldap
+olcSuffix: dc=some,dc=domain,dc=com
+olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymou
+ s auth by dn="cn=admin,dc=some,dc=domain,dc=com" write by * none
+olcAccess: {1}to dn.base="" by * read
+olcAccess: {2}to * by self write by dn="cn=admin,dc=some,dc=domain,dc=com" wri
+ te by * read
+olcLastMod: TRUE
+olcRootDN: cn=admin,dc=some,dc=domain,dc=com
+olcRootPW:: e1NTSEF9cko2MytZelVQclZCMnRnVWVzQ1RoRGlXOFdRelM5RDU=
+olcDbCheckpoint: 512 30
+olcDbConfig: {0}set_cachesize 0 2097152 0
+olcDbConfig: {1}set_lk_max_objects 1500
+olcDbConfig: {2}set_lk_max_locks 1500
+olcDbConfig: {3}set_lk_max_lockers 1500
+olcDbIndex: objectClass eq
+structuralObjectClass: olcHdbConfig
+entryUUID: c1e0a54e-2703-1035-80e8-1113864881c2
+creatorsName: cn=config
+createTimestamp: 20151124143113Z
+entryCSN: 20151124143113.177496Z#000000#000#000000
+modifiersName: cn=config
+modifyTimestamp: 20151124143113Z
