@@ -1,0 +1,41 @@
+#Directory root object
+dn: dc=some,dc=domain,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: eon
+
+#People OU
+dn: ou=people,dc=some,dc=domain,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: people
+
+#Groups OU
+dn: ou=groups,dc=some,dc=domain,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+#add user
+dn: cn=admin,ou=people,dc=some,dc=domain,dc=com
+objectClass: inetOrgPerson
+cn: admin
+sn: Phan
+displayName: Johnathan Phan
+givenName: Johnathan
+mail: johnp@cc-g.co.uk
+uid: admin
+userPassword:: Password
+
+#Administrators group
+dn: cn=administrators,ou=groups,dc=some,dc=domain,dc=com
+objectClass: groupOfNames
+cn: administrators
+member: cn=admin,dc=some,dc=domain,dc=com
+
+# Developer group
+dn: cn=developer,ou=groups,dc=some,dc=domain,dc=com
+objectClass: groupOfNames
+cn: developer
+member: cn=admin,dc=some,dc=domain,dc=com
