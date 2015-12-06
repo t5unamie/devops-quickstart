@@ -6,7 +6,6 @@
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
-    <roleMap type="projectRoles"/>
     <roleMap type="globalRoles">
       <role name="admin" pattern=".*">
         <permissions>
@@ -51,12 +50,10 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>authenticated</sid>
-          <sid>administrators</sid>
+          <sid>anonymous</sid>
         </assignedSIDs>
       </role>
     </roleMap>
-    <roleMap type="slaveRoles"/>
   </authorizationStrategy>
   <securityRealm class="hudson.security.LDAPSecurityRealm" plugin="ldap@1.11">
     <server>ldap://172.17.0.1:389</server>

@@ -51,7 +51,7 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>authenticated</sid>
+          <sid>anonymous</sid>
           <sid>administrators</sid>
         </assignedSIDs>
       </role>

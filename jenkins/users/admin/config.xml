@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<user>
+  <fullName>Johnathan Phan</fullName>
+  <properties>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>qlNUGOsM5ny+ub1aFJj52RK0tAgKQ7fOdf4P8wE5DTL+XvmNX6UnpdelsmxWdajc</apiToken>
+    </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1.24">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.40.5">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>All</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>false</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.16">
+      <emailAddress>johnp@cc-g.co.uk</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1449432302394</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>
