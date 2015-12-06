@@ -3,7 +3,7 @@ dn: dc=some,dc=domain,dc=com
 objectClass: top
 objectClass: dcObject
 objectClass: organization
-o: eon
+o: some
 
 #People OU
 dn: ou=people,dc=some,dc=domain,dc=com
