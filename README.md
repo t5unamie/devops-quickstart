@@ -7,7 +7,7 @@ Looking to create seperate repo with the advanced automated and scripted setup f
 
 Password for demo
 
-username - admin
+username - example-admin
 password - root
 
 # Instructions
