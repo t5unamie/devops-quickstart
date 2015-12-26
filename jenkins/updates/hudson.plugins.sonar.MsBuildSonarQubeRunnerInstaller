@@ -1,0 +1,31 @@
+{
+  "list":   [
+        {
+      "id": "1.1",
+      "name": "MSBuild SonarQube Runner 1.1",
+      "url": "https://github.com/SonarSource/sonar-msbuild-runner/releases/download/1.1/MSBuild.SonarQube.Runner-1.1.zip"
+    },
+        {
+      "id": "1.0.2",
+      "name": "MSBuild SonarQube Runner 1.0.2",
+      "url": "https://github.com/SonarSource/sonar-msbuild-runner/releases/download/1.0.2/MSBuild.SonarQube.Runner-1.0.2.zip"
+    },
+        {
+      "id": "1.0.1",
+      "name": "MSBuild SonarQube Runner 1.0.1",
+      "url": "https://github.com/SonarSource/sonar-msbuild-runner/releases/download/1.0.1/MSBuild.SonarQube.Runner-1.0.1.zip"
+    },
+        {
+      "id": "1.0",
+      "name": "MSBuild SonarQube Runner 1.0",
+      "url": "https://github.com/SonarSource/sonar-msbuild-runner/releases/download/1.0/MSBuild.SonarQube.Runner-1.0.zip"
+    }
+  ],
+  "signature":   {
+    "certificates": ["MIIC3TCCAcUCBQDerb72MA0GCSqGSIb3DQEBBAUAMIGKMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTERMA8GA1UEBxMIU2FuIEpvc2UxGDAWBgNVBAoTD0plbmtpbnMgUHJvamVjdDEaMBgGA1UEAxMRS29oc3VrZSBLYXdhZ3VjaGkxHTAbBgkqhkiG9w0BCQEWDmtrQGtvaHN1a2Uub3JnMB4XDTE1MTAyMzIzMTcwN1oXDTE2MTAyMjIzMTcwN1owXjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExGDAWBgNVBAoTD0plbmtpbnMgUHJvamVjdDEgMB4GA1UEAxMXQ29tbXVuaXR5IFVwZGF0ZSBDZW50ZXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKTDDxjInVBgniu4TpRQoI29ci8lwzXsPX4anFI+1LiPsPk2RmIg05WEohD6RCzldgiNtaPGujyeR/+xXYd8Gev3Abm1OjlN6bZbzZHAX8FoDr4PJJWftq0LDg+YVki1p8eF65ByoHIVHmNeE7NH09kAnbT4w2DNGstwHcFO90RbAgMBAAEwDQYJKoZIhvcNAQEEBQADggEBAEXjgSS36zFzgIP946PrjGCW7RyupbWyf7VPK3pnwryk1oIciQpjHsZglLwMisO8RGuQ/+aIjIIPB8i4vNmcff0RpTGPSbkxlH+ogjXMQBT5y6iNGPqTRB/UIgb50/ByLY+LrwKeERKn58rhgP7dETo2Z4TYToh0arWgVpTase8JBwYDP41UzzDL1U72/ZDS1dYF9IHEsY0n/Lrujil3B3TkH+AGIAh0QMf6/fHQz4PjF7pNVRrV23nJqezQUnB1Imzn2ILE1/yYNiPwBYmiNp468Jk+KibJjClHjQTs+LFsuJeE3fUQqJTjP1qKPFjNVkAghO54uDqQycb4MQLaqJo="],
+    "correct_digest": "f/WX8B665D7fkXTkpPxPBAwBpck=",
+    "correct_signature": "T0nJRhdq0YVzFeexfh+g9o4CsccQg+UG+oi7cc4H5JMcYKIkB6UEtiIFatl0uP2cAmcdzMGUdP4IwJmcaxIjN8tf3N5ekCg+R3sXuApzstYi3vA/LMe2dZ5/7Ll9zajDSXqA2oy/q7SseZnFHra64+C4cwp7T7XM0+MvGklbTW0=",
+    "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "signature": "m6UxuBwiblfpmbZ8b4ynXnYj0dH66giB7qdFN0oU6saZcP5Nx3dZPcZa27Ac6K8LSiuz7Yq88NeQCusKTHGoWDd16X6+DNxcOQQg+UyTlUc3Mq+7D21DuYYYaiHGNhesg5gzyql4P9afxyM6hCKb3il1AX8eJJq74CiXVAz9WlM="
+  }
+}
